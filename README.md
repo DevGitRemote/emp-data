@@ -1,5 +1,6 @@
 use this cmd
-sudo apt install mysql-server
+sudo apt install mysql-server (in webserver and database server)
+install below only in database server
 sudo apt install python3
 sudo apt install python3-flask
 sudo apt install python3-mysql
@@ -9,6 +10,7 @@ create table employee (empid VARCHAR (20), first_name VARCHAR (20), last_name VA
 
 in config.py modify the details listed
 
-in ExamApp.py modify search for try statement[block] and modify region name and table name
+in ExamApp.py modify search for try statement[block] and modify region name and table name of DynamoDB table also look for MySql table name,database name.
 
-After all steps go to aws-code-main directory and run sudo python3 EmpApp.py 
+for about page upload the about.html to s3 bucket>properties>static website hosting | enter name - about.html > proceed > copy url > go to emp-data > templates > nano AddEmp > scroll down >  see like href=/about > delete /about and paste the static web s3 url here.
+After all steps go to emp-data directory and run sudo python3 EmpApp.py 
