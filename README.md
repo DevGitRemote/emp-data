@@ -1,3 +1,4 @@
+<<< Screenshots as proof is in .gitignore >>>
 use this cmd
 sudo apt install mysql-server (in webserver and database server)
 install below only in database server
