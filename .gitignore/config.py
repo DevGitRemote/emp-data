@@ -1,0 +1,6 @@
+customhost = "RDS-endpoint"
+customuser = "admin"
+custompass = "admin123"
+customdb = "emp"
+custombucket = "aybuck-aws-capstone"
+customregion = "us-east-1"
